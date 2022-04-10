@@ -1,0 +1,16 @@
+<svg width="16" height="84" viewBox="0 0 16 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Small, Type=Circular, Condensed=False">
+<g id="Circle compass arrow/ setpoint - Small">
+<g id="Circle compass arrow/ HDG - Small">
+<g id="Input small" clip-path="url(#NKFSZZRRLEclip0)">
+<path id="Input arrow" d="M4.5 1.22392e-06L7.5 7.99988L7.5 12.0001L8.5 12.0002L8.5 7.99988L11.5 0L4.5 1.22392e-06Z" fill="#DCB900" class="ob-instrument-input-color-fill"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="NKFSZZRRLEclip0">
+<rect width="12" height="12" fill="white" transform="translate(14 12) rotate(180)"/>
+</clipPath>
+</defs>
+</svg>

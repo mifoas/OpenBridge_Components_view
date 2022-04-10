@@ -1,0 +1,9 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Medium, Type=Regular, Condensed=False">
+<g id="Group 2">
+<path id="frame (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M232 128C232 185.438 185.438 232 128 232C70.5624 232 24 185.438 24 128C24 70.5624 70.5624 24 128 24C185.438 24 232 70.5624 232 128ZM128 216C176.601 216 216 176.601 216 128C216 79.3989 176.601 40 128 40C79.3989 40 40 79.3989 40 128C40 176.601 79.3989 216 128 216Z" fill="white" class="ob-instrument-frame-color-fill"/>
+<circle id="inner-border" cx="128" cy="128" r="88.5" stroke="#E5E5E5" class="ob-instrument-tick-mark-tertiary-color-stroke"/>
+<circle id="outer-border" cx="128" cy="128" r="104.5" stroke="#E5E5E5" class="ob-instrument-tick-mark-tertiary-color-stroke"/>
+</g>
+</g>
+</svg>

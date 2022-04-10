@@ -1,0 +1,14 @@
+<svg width="48" height="16" viewBox="0 0 48 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Small">
+<g id="Small">
+<g id="Union">
+<mask id="OQOPLBPLVOpath-1-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0H0C0 8.83656 7.16344 16 16 16H48V0H16Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0H0C0 8.83656 7.16344 16 16 16H48V0H16Z" class="ob-instrument-track-color-fill"/>
+<path d="M0 0V-1H-1V0H0ZM48 16V17H49V16H48ZM48 0H49V-1H48V0ZM0 1H16V-1H0V1ZM16 15C7.71573 15 1 8.28427 1 0H-1C-1 9.38884 6.61116 17 16 17V15ZM48 15H16V17H48V15ZM47 0V16H49V0H47ZM16 1H48V-1H16V1Z" mask="url(#OQOPLBPLVOpath-1-inside-1)" class="ob-instrument-tick-mark-secondary-color-fill"/>
+</g>
+<path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M23.5 16V0H24.5V16H23.5Z" class="ob-instrument-tick-mark-secondary-color-fill"/>
+</g>
+</g>
+</svg>

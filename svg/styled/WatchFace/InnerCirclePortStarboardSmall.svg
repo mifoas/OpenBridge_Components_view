@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Small, Type=PORT STBD, Condensed=False">
+<g id="Group 5">
+<path id="PORT" d="M32 5.5C24.9718 5.5 18.2314 8.29196 13.2617 13.2617C8.29196 18.2314 5.5 24.9718 5.5 32C5.5 39.0282 8.29195 45.7686 13.2617 50.7383C18.2314 55.708 24.9718 58.5 32 58.5" stroke="#FF004C" class="ob-instrument-port-color-stroke"/>
+<path id="STBD" d="M32 58.5C39.0282 58.5 45.7686 55.708 50.7383 50.7383C55.708 45.7686 58.5 39.0282 58.5 32C58.5 24.9718 55.708 18.2314 50.7383 13.2617C45.7686 8.29196 39.0282 5.5 32 5.5" stroke="#00B373" class="ob-instrument-starboard-color-stroke"/>
+</g>
+</g>
+</svg>

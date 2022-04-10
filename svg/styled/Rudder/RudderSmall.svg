@@ -1,0 +1,10 @@
+<svg width="16" height="64" viewBox="0 0 16 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Small">
+<circle id="Inner circle" cx="8" cy="32" r="8" fill="white" class="ob-instrument-frame-color-fill"/>
+<circle id="Ellipse 8" cx="8" cy="32" r="2" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+<g id="Rudder">
+<path id="pointer-line (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M7.5 56L7.5 32L8.5 32L8.5 56L7.5 56Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+<path id="element (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M8 58C7.72164 58 7.49385 57.7784 7.48612 57.5002L7 40L9 40L8.51388 57.5002C8.50615 57.7784 8.27836 58 8 58Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+</g>
+</g>
+</svg>

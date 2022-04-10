@@ -1,0 +1,73 @@
+
+.root {
+    --topbar-bg-color: #FCFCFC;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* Topbar */
+.topbar {
+    display: flex;
+    position: static;
+    max-width: 90%;
+    width: auto;
+    height: 75px;
+    left: calc(50% - 1220px/2);
+    top: 0%;
+    margin: auto;
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topbar_elements {
+    display: inline-flex;
+    /* height: 75%; */
+    margin: 0 5px;
+    line-height: 24px;
+    align-items: center;
+}
+
+.topbar_elements :hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.topbar_elements a {
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 2em;
+    color: black;
+}
+
+
+/* main */
+
+.grid_container {
+    margin: 10px auto;
+    max-width: 90%;
+    width: auto;
+    height: 4096px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 3fr;
+    gap: 5px;
+    align-items: center;
+    grid-auto-rows: min-content;
+}
+
+.cell_heading {
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.cell {
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    padding: 5px;
+}

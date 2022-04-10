@@ -1,0 +1,17 @@
+<svg width="256" height="24" viewBox="0 0 256 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Bar meter - Horizontal">
+<g id="Component">
+<g id="Tickmarks">
+<g id="Ruler">
+<g id="Bar frame">
+<path d="M24 16L232 16V24L24 24V16Z" class="ob-instrument-frame-color-fill"/>
+<path d="M24 16V15H23V16H24ZM232 16H233V15H232V16ZM232 24V25H233V24H232ZM24 24H23V25H24V24ZM24 17L232 17V15L24 15V17ZM231 16V24L233 24V16H231ZM232 23L24 23V25L232 25V23ZM25 24V16H23V24H25Z" fill-opacity="0.05" class="ob-instrument-frame-color-fill"/>
+</g>
+<g id="Primary tickmarks">
+<path id="Tickmarks_2" d="M128 16V24M153.875 16V24M179.75 16V24M205.625 16V24M231.5 16V24M102.125 16V24M76.25 16V24M50.375 16V24M24.5 16V24" class="ob-instrument-tick-mark-secondary-color-stroke"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

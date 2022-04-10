@@ -1,0 +1,14 @@
+<svg width="96" height="32" viewBox="0 0 96 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Medium">
+<g id="Medium">
+<g id="Union">
+<mask id="LVONPLGDGVpath-1-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32 0H0C0 17.6731 14.3269 32 32 32H96V0H32Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32 0H0C0 17.6731 14.3269 32 32 32H96V0H32Z" fill="#E6E6E6" class="ob-instrument-track-color-fill"/>
+<path d="M0 0V-1H-1V0H0ZM96 32V33H97V32H96ZM96 0H97V-1H96V0ZM0 1H32V-1H0V1ZM32 31C14.8792 31 1 17.1208 1 0H-1C-1 18.2254 13.7746 33 32 33V31ZM96 31H32V33H96V31ZM95 0V32H97V0H95ZM32 1H96V-1H32V1Z" fill="#999999" mask="url(#LVONPLGDGVpath-1-inside-1)" class="ob-instrument-tick-mark-secondary-color-fill"/>
+</g>
+<path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M47.5 32V0H48.5V32H47.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+
+.root {
+  --main-bg-color: #F0F0F0
+}
+
+body {
+  margin: 0;
+  background: #F0F0F0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

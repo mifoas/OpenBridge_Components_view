@@ -1,0 +1,5 @@
+<svg width="416" height="416" viewBox="0 0 416 416" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Degree=30Â°, Tick size=Tertiary">
+<path id="Tickmarks" d="M208 24V32M116 48.6514L120 55.5796M48.6513 116L55.5795 120M24 208H32M48.6513 300L55.5795 296M116 367.349L120 360.42M208 392V384M300 367.349L296 360.42M367.349 300L360.421 296M392 208H384M367.349 116L360.421 120M300 48.6514L296 55.5796" stroke="#999999" stroke-linejoin="round" class="ob-instrument-tick-mark-secondary-color-stroke"/>
+</g>
+</svg>

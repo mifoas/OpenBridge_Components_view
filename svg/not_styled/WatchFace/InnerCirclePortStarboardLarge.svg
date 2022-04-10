@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Large, Type=PORT STBD, Condensed=False">
+<path id="frame (Stroke)" d="M256 464.5C371.151 464.5 464.5 371.151 464.5 256C464.5 140.849 371.151 47.5 256 47.5C140.849 47.5 47.5 140.849 47.5 256C47.5 371.151 140.849 464.5 256 464.5ZM431.5 256C431.5 352.926 352.926 431.5 256 431.5C159.074 431.5 80.5 352.926 80.5 256C80.5 159.074 159.074 80.5 256 80.5C352.926 80.5 431.5 159.074 431.5 256Z" class="ob-instrument-tick-mark-tertiary-color-stroke ob-instrument-frame-color-fill"/>
+<path id="PORT" d="M256 462C201.365 462 148.968 440.296 110.336 401.664C71.7035 363.031 50 310.635 50 256C50 201.365 71.7035 148.968 110.336 110.336C148.969 71.7035 201.365 50 256 50" stroke-width="4" class="ob-instrument-port-color-stroke"/>
+<path id="STBD" d="M256 50C310.635 50 363.032 71.7035 401.664 110.336C440.297 148.969 462 201.365 462 256C462 310.635 440.296 363.032 401.664 401.664C363.031 440.296 310.635 462 256 462" stroke-width="4" class="ob-instrument-starboard-color-stroke"/>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="96" height="512" viewBox="0 0 96 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Large">
+<circle id="Inner circle" cx="48" cy="256" r="47.5" fill="white" stroke="#E5E5E5" class="ob-instrument-tick-mark-tertiary-color-stroke ob-instrument-frame-color-fill"/>
+<circle id="Center" cx="48" cy="256" r="8" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+<g id="Rudder">
+<path id="pointer-line" d="M48 256V430" stroke="#0080FF" stroke-width="2" class="ob-instrument-dynamic-color-stroke"/>
+<path id="element (Stroke)" d="M46.9766 431L44.0937 307.999C44.0423 305.806 45.8062 304 48 304C50.1938 304 51.9577 305.806 51.9063 307.999L49.0234 431C49.0104 431.556 48.556 432 48 432C47.444 432 46.9896 431.556 46.9766 431Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,101 @@
+<html lang="en" theme="day"> <!-- set theme="day for day pallett -->
+    <head>
+       <link rel="stylesheet" href="css/openbridge.css"> <!--import openbridge css-->
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="topbar">
+                <div class="topbar_elements">
+                    <a href="hdg_cog.html" target="self">HDG_COG</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="m5_01_navigation_elements.html" target="self">M5_01_NavigationElements</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="pitch_roll.html" target="self">PitchRoll</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="rot.html" target="self">ROT</a>
+                </div>
+                <div class="topbar_elements" style="box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);">
+                    <a href="rudder.html" target="self">Rudder</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="set_point.html" target="self">SetPoint</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="thruster.html" target="self">Thruster</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="tickmarks.html" target="self">Tickmarks</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="watchface.html" target="self">WatchFace</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="grid_container">
+                <div class="cell_heading">
+                    <h2>Name</h2>
+                </div>
+                <div class="cell_heading">
+                    <h2>Small</h2>
+                </div>
+                <div class="cell_heading">
+                    <h2>Medium</h2>
+                </div>
+                <div class="cell_heading">
+                    <h2>Large</h2>
+                </div>
+            <!-- Row 1 -->
+                <div class="cell">
+                    <h2>Rudder</h2>
+                </div>
+            <!-- Small -->
+                <div class="cell">
+                    <svg width="16" height="64" viewBox="0 0 16 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Small">
+                        <circle id="Inner circle" cx="8" cy="32" r="8" fill="white" class="ob-instrument-frame-color-fill"/>
+                        <circle id="Ellipse 8" cx="8" cy="32" r="2" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        <g id="Rudder">
+                        <path id="pointer-line (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M7.5 56L7.5 32L8.5 32L8.5 56L7.5 56Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        <path id="element (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M8 58C7.72164 58 7.49385 57.7784 7.48612 57.5002L7 40L9 40L8.51388 57.5002C8.50615 57.7784 8.27836 58 8 58Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        </g>
+                        </g>
+                    </svg>
+                </div>
+            <!-- Medium -->
+                <div class="cell">
+                    <svg width="48" height="256" viewBox="0 0 48 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Medium">
+                        <circle id="Inner circle" cx="24" cy="128" r="23.5" fill="white" stroke="#E5E5E5" class="ob-instrument-tick-mark-tertiary-color-stroke ob-instrument-frame-color-fill"/>
+                        <circle id="Center" cx="24" cy="128" r="4" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        <g id="Rudder">
+                        <path id="pointer-line" d="M24 128V214" stroke="#0080FF" class="ob-instrument-dynamic-color-stroke"/>
+                        <path id="element (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M24 216C23.722 216 23.4948 215.778 23.4883 215.5L22.0469 153.999C22.0212 152.903 22.9031 152 24 152C25.0969 152 25.9788 152.903 25.9531 153.999L24.5117 215.5C24.5052 215.778 24.278 216 24 216Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        </g>
+                        </g>
+                    </svg>
+                </div>
+            <!-- Large -->
+                <div class="cell">
+                    <svg width="96" height="512" viewBox="0 0 96 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Large">
+                        <circle id="Inner circle" cx="48" cy="256" r="47.5" fill="white" stroke="#E5E5E5" class="ob-instrument-tick-mark-tertiary-color-stroke ob-instrument-frame-color-fill"/>
+                        <circle id="Center" cx="48" cy="256" r="8" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        <g id="Rudder">
+                        <path id="pointer-line" d="M48 256V430" stroke="#0080FF" stroke-width="2" class="ob-instrument-dynamic-color-stroke"/>
+                        <path id="element (Stroke)" d="M46.9766 431L44.0937 307.999C44.0423 305.806 45.8062 304 48 304C50.1938 304 51.9577 305.806 51.9063 307.999L49.0234 431C49.0104 431.556 48.556 432 48 432C47.444 432 46.9896 431.556 46.9766 431Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+    </html>

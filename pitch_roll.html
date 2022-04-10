@@ -1,0 +1,229 @@
+<html lang="en" theme="day"> <!-- set theme="day for day pallett -->
+    <head>
+       <link rel="stylesheet" href="css/openbridge.css"> <!--import openbridge css-->
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="topbar">
+                <div class="topbar_elements">
+                    <a href="hdg_cog.html" target="self">HDG_COG</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="m5_01_navigation_elements.html" target="self">M5_01_NavigationElements</a>
+                </div>
+                <div class="topbar_elements" style="box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);">
+                    <a href="pitch_roll.html" target="self">PitchRoll</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="rot.html" target="self">ROT</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="rudder.html" target="self">Rudder</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="set_point.html" target="self">SetPoint</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="thruster.html" target="self">Thruster</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="tickmarks.html" target="self">Tickmarks</a>
+                </div>
+                <div class="topbar_elements">
+                    <a href="watchface.html" target="self">WatchFace</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="grid_container">
+                <div class="cell_heading">
+                    <h2>Name</h2>
+                </div>
+                <div class="cell_heading">
+                    <h2>Small</h2>
+                </div>
+                <div class="cell_heading">
+                    <h2>Medium</h2>
+                </div>
+                <div class="cell_heading">
+                    <h2>Large</h2>
+                </div>
+            <!-- Row 1 -->
+                <div class="cell">
+                    <h2>PitcPointer
+                    </h2>
+                </div>
+            <!-- Small -->
+                <div class="cell">
+                    <svg width="32" height="1" viewBox="0 0 32 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="pointer-line">
+                        <path id="line" d="M31.9995 0.499975L7.99987 0.499992" stroke="#0080FF" class="ob-instrument-dynamic-color-stroke"/>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Medium -->
+                <div class="cell">
+                    <svg width="128" height="4" viewBox="0 0 128 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="pointer-line">
+                        <path id="line" d="M128 1.99998L32 2" stroke="#0080FF" class="ob-instrument-dynamic-color-stroke"/>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Large -->
+                <div class="cell">
+                    <svg width="256" height="8" viewBox="0 0 256 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="pointer-line">
+                        <path id="line" d="M256 3.99998L64 4" stroke="#0080FF" stroke-width="2" class="ob-instrument-dynamic-color-stroke"/>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Row 2 -->
+                <div class="cell">
+                    <h2>PointerCenter</h2>
+                </div>
+            <!-- Small -->
+               <div class="cell">
+                <svg width="1" height="1" viewBox="0 0 1 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle id="center" cx="0.5" cy="0.5" r="0.5" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                </svg>
+                </div>
+            <!-- Medium -->
+                <div class="cell">
+                    <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle id="center" cx="2" cy="2" r="2" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        </svg>
+                </div>
+            <!-- Large -->
+                <div class="cell">
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle id="center" cx="4" cy="4" r="4" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+                        </svg>
+                </div>
+            <!-- Row 3 -->
+                <div class="cell">
+                    <h2>RollPointer</h2>
+                </div>
+            <!-- Small -->
+                <div class="cell">
+                    <svg width="1" height="32" viewBox="0 0 1 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="pointer-line">
+                        <path id="line" d="M0.499973 -7.15243e-07L0.499991 23.9996" stroke="#0080FF" class="ob-instrument-dynamic-color-stroke"/>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Medium -->
+                <div class="cell">
+                    <svg width="4" height="128" viewBox="0 0 4 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="pointer-line">
+                        <path id="line" d="M1.99998 -2.86102e-06L2 95.9998" stroke="#0080FF" class="ob-instrument-dynamic-color-stroke"/>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Large -->
+                <div class="cell">
+                    <svg width="8" height="256" viewBox="0 0 8 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="pointer-line">
+                        <path id="line" d="M3.99997 -5.72204e-06L3.99999 192" stroke="#0080FF" stroke-width="2" class="ob-instrument-dynamic-color-stroke"/>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Row 4 -->
+                <div class="cell">
+                    <h2>ShipPitch</h2>
+                </div>
+            <!-- Small -->
+                <div class="cell">
+                    <svg width="48" height="16" viewBox="0 0 48 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Small">
+                        <g id="Small">
+                        <g id="Union">
+                        <mask id="URXJWIJTPGpath-1-inside-1" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0H0C0 8.83656 7.16344 16 16 16H48V0H16Z"/>
+                        </mask>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0H0C0 8.83656 7.16344 16 16 16H48V0H16Z" fill="#E6E6E6" class="ob-instrument-track-color-fill"/>
+                        <path d="M0 0V-1H-1V0H0ZM48 16V17H49V16H48ZM48 0H49V-1H48V0ZM0 1H16V-1H0V1ZM16 15C7.71573 15 1 8.28427 1 0H-1C-1 9.38884 6.61116 17 16 17V15ZM48 15H16V17H48V15ZM47 0V16H49V0H47ZM16 1H48V-1H16V1Z" fill="#999999" mask="url(#URXJWIJTPGpath-1-inside-1)" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        <path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M23.5 16V0H24.5V16H23.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Medium -->
+                <div class="cell">
+                    <svg width="96" height="32" viewBox="0 0 96 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Medium">
+                        <g id="Medium">
+                        <g id="Union">
+                        <mask id="LVONPLGDGVpath-1-inside-1" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0H0C0 17.6731 14.3269 32 32 32H96V0H32Z"/>
+                        </mask>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0H0C0 17.6731 14.3269 32 32 32H96V0H32Z" fill="#E6E6E6" class="ob-instrument-track-color-fill"/>
+                        <path d="M0 0V-1H-1V0H0ZM96 32V33H97V32H96ZM96 0H97V-1H96V0ZM0 1H32V-1H0V1ZM32 31C14.8792 31 1 17.1208 1 0H-1C-1 18.2254 13.7746 33 32 33V31ZM96 31H32V33H96V31ZM95 0V32H97V0H95ZM32 1H96V-1H32V1Z" fill="#999999" mask="url(#LVONPLGDGVpath-1-inside-1)" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        <path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M47.5 32V0H48.5V32H47.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Large -->
+                <div class="cell">
+                    <svg width="192" height="64" viewBox="0 0 192 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Large">
+                        <g id="Large">
+                        <g id="Union">
+                        <mask id="VYYEZTPNNQpath-1-inside-1" fill="white">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M64 0H0C0 35.3462 28.6538 64 64 64H192V0H64Z"/>
+                        </mask>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M64 0H0C0 35.3462 28.6538 64 64 64H192V0H64Z" fill="#E6E6E6" class="ob-instrument-track-color-fill"/>
+                        <path d="M0 0V-1H-1V0H0ZM192 64V65H193V64H192ZM192 0H193V-1H192V0ZM0 1H64V-1H0V1ZM64 63C29.2061 63 1 34.7939 1 0H-1C-1 35.8985 28.1015 65 64 65V63ZM192 63H64V65H192V63ZM191 0V64H193V0H191ZM64 1H192V-1H64V1Z" fill="#999999" mask="url(#VYYEZTPNNQpath-1-inside-1)" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        <path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M95.5 64V0H96.5V64H95.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Row 5 -->
+                <div class="cell">
+                    <h2>ShipRoll</h2>
+                </div>
+            <!-- Small -->
+                <div class="cell">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Small">
+                        <g id="Small">
+                        <path id="Ship" d="M0.5 0.5H15.5V8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8V0.5Z" fill="#E6E6E6" stroke="#999999" class="ob-instrument-tick-mark-secondary-color-stroke ob-instrument-track-color-fill"/>
+                        <path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M7.5 16V0H8.5V16H7.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Medium -->
+                <div class="cell">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Medium">
+                        <g id="Medium">
+                        <path id="Ship" d="M0.5 0.5H31.5V16C31.5 24.5604 24.5604 31.5 16 31.5C7.43959 31.5 0.5 24.5604 0.5 16V0.5Z" fill="#E6E6E6" stroke="#999999" class="ob-instrument-tick-mark-secondary-color-stroke ob-instrument-track-color-fill"/>
+                        <path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M15.5 32V0H16.5V32H15.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        </g>
+                        </svg>
+                </div>
+            <!-- Large -->
+                <div class="cell">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Size=Large">
+                        <g id="Large">
+                        <path id="Ship" d="M0.5 0.5H63.5V32C63.5 49.397 49.397 63.5 32 63.5C14.603 63.5 0.5 49.397 0.5 32V0.5Z" fill="#E6E6E6" stroke="#999999" class="ob-instrument-tick-mark-secondary-color-stroke ob-instrument-track-color-fill"/>
+                        <path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M31.5 64V0H32.5V64H31.5Z" fill="#999999" class="ob-instrument-tick-mark-secondary-color-fill"/>
+                        </g>
+                        </g>
+                        </svg>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+    </html>

@@ -1,0 +1,8 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Medium">
+<g id="Medium">
+<path id="Ship" d="M0.5 0.5H31.5V16C31.5 24.5604 24.5604 31.5 16 31.5C7.43959 31.5 0.5 24.5604 0.5 16V0.5Z" class="ob-instrument-tick-mark-secondary-color-stroke ob-instrument-track-color-fill"/>
+<path id="Cross" fill-rule="evenodd" clip-rule="evenodd" d="M15.5 32V0H16.5V32H15.5Z" class="ob-instrument-tick-mark-secondary-color-fill"/>
+</g>
+</g>
+</svg>

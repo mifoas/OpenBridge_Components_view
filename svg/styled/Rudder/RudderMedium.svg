@@ -1,0 +1,10 @@
+<svg width="48" height="256" viewBox="0 0 48 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Size=Medium">
+<circle id="Inner circle" cx="24" cy="128" r="23.5" fill="white" stroke="#E5E5E5" class="ob-instrument-tick-mark-tertiary-color-stroke ob-instrument-frame-color-fill"/>
+<circle id="Center" cx="24" cy="128" r="4" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+<g id="Rudder">
+<path id="pointer-line" d="M24 128V214" stroke="#0080FF" class="ob-instrument-dynamic-color-stroke"/>
+<path id="element (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M24 216C23.722 216 23.4948 215.778 23.4883 215.5L22.0469 153.999C22.0212 152.903 22.9031 152 24 152C25.0969 152 25.9788 152.903 25.9531 153.999L24.5117 215.5C24.5052 215.778 24.278 216 24 216Z" fill="#0080FF" class="ob-instrument-dynamic-color-fill"/>
+</g>
+</g>
+</svg>
